@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="180dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp">
+
+        <FrameLayout
+            android:id="@+id/vBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvVehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:textColor="@color/colorDefaultText"
+                android:textSize="16sp" />
+
+            <com.ecar.energybite.widget.CustomTextView
+                android:id="@+id/tvModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="16dp"
+                android:hint="Model"
+                app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="@color/colorDefaultText"
+                android:textColorHint="@color/colorGray600"
+                android:theme="@style/TextLabel.Regular" />
+
+            <com.ecar.energybite.widget.CustomTextView
+                android:id="@+id/tvYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="16dp"
+                app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:hint="Year"
+                android:textColor="@color/colorDefaultText"
+                android:textColorHint="@color/colorGray600"
+                android:theme="@style/TextLabel.Regular" />
+
+            <LinearLayout
+                android:id="@+id/lvExtraInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.ecar.energybite.widget.CustomTextView
+                    android:id="@+id/tvRegistrationNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="16dp"
+                    app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:hint="Registration Number"
+                    android:textColor="@color/colorDefaultText"
+                    android:textColorHint="@color/colorGrayDark"
+                    android:theme="@style/TextLabel.Large" />
+
+                <com.ecar.energybite.widget.CustomTextView
+                    android:id="@+id/tvUserEVId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="16dp"
+                    app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:hint="Vehicle Id"
+                    android:textColor="@color/colorDefaultText"
+                    android:textColorHint="@color/colorGrayDark"
+                    android:theme="@style/TextLabel.Large" />
+            </LinearLayout>
+
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/searchCriteriaContainer"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:orientation="vertical"/>-->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSubUserMetaDetails"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/ic_caret_down"
+        android:tint="@color/colorWhite"
+        app:backgroundTint="@color/colorPrimary" />
+</LinearLayout>

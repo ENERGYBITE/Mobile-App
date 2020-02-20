@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:background="#FAFAFA">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Vehicle Status">
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Fully Charged"
+            android:summary="Will get notification when your vehicle will be completely charged"
+            android:title="Fully Charged" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Interruption"
+            android:summary="Will get notification when there will be any interruption while charging"
+            android:title="Interruption" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Offers and Receipts">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Charging Receipt"
+            android:summary="Receive charging receipt on email"
+            android:title="Charging Receipt" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="Email"
+            android:summary="Get latest offers on email"
+            android:title="Email" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="Charging Receipt"
+            android:summary="Get latest offers on message"
+            android:title="Mobile" />
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+    <!--android:title="Personal Informations"-->
+    <!--android:key="personal_category">-->
+
+
+    <!--<EditTextPreference-->
+    <!--android:key="full_name"-->
+    <!--android:title="Name"-->
+    <!--android:summary="Enter Your Complete Name"-->
+    <!--android:dialogTitle="Your Name"-->
+    <!--android:dialogMessage="Enter Your Complete Name"-->
+    <!--android:defaultValue="test"-->
+    <!--android:inputType="textCapWords"/>-->
+
+    <!--<EditTextPreference-->
+    <!--android:key="email_address"-->
+    <!--android:title="Email Address"-->
+    <!--android:summary="Enter Your Email Address"-->
+    <!--android:dialogTitle="Enter Your Email Address"-->
+    <!--android:dialogMessage="Enter Your Email Address"-->
+    <!--android:defaultValue="test"-->
+    <!--android:inputType="textEmailAddress"/>-->
+
+    <!--</PreferenceCategory>-->
+
+
+    <!--<PreferenceCategory-->
+    <!--android:title="Customisations"-->
+    <!--android:key="custom_category">-->
+
+
+    <!--<RingtonePreference-->
+    <!--android:key="notification_ringtone"-->
+    <!--android:title="Notification Ringtone"-->
+    <!--android:summary="Customise Notification Ringtone for you"-->
+    <!--android:dialogTitle="Notification Ringtone"-->
+    <!--android:dialogMessage="Customise Notification Ringtone for you"/>-->
+
+
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyBookingActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_my_bookings"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/btn_action_no_booking_found">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btn_action_no_booking_found"
+        android:background="@android:color/white"
+        android:text="Click here if you don't see your bookings"
+        android:textSize="13sp"
+        android:textColor="#616161"
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

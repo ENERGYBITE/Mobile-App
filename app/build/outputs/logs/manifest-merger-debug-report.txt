@@ -1,0 +1,820 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c4cbe32ec512dac4b09a29c87b2caec\constraintlayout-2.0.0-beta3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\aa247d74ab18bde476ad979ae0100be8\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4b34bb880c3b2242ba4cdd5d52e9bb02\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5e2b9a1bab17b8f923ea533dd4f62b64\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f68979701bee69e3140d72e6bc58c2a5\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\40ab12df7600040601bc2bd91cc0adf2\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7c91e8c807d6ba5b9117aea8468e0e3c\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-places:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\83702c60c825f64ed207079ac6f3926d\play-services-places-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3c225944cdf48fbc5e482e34b54947c2\play-services-vision-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\33c6da4707f9528880738297c401bf6e\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eabe065470631c2dac59f57eb3605496\fab-1.6.4\AndroidManifest.xml:2:1-14:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6084af541dcc39a3ea1cc1ff24cc97be\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c8b79d4132232d3f821540e58a858501\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:17:1-132:12
+MERGED from [com.facebook.fresco:fresco:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3f63774c659ce1c42110de23ab939d27\jetified-fresco-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553cf93169d137dd19324ee0235bfc1f\animated-gif-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\df4f11974ba8786001fd18c6d1c9f1da\butterknife-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c5d5cac45049534d72334f2ac342c62a\play-services-tagmanager-v4-impl-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe72aa414a1fd04bcef84bef4abf063f\play-services-vision-common-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\90c9fd79256f5301f4cf846b596e4ef7\play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9b6c6e3583369f2d7b4cbbac69466d9c\play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3b9bc9c8d46553cbf58ce57d3067c751\play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b3a91da8788ae8554545767a85848749\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe930349db80ff310114240ed57e12b1\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9ca1843210b071da79a05d0d46a6eef3\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\557bf65be37f216c7e8b86b7e7ca860c\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\100ad73feb78087e552b8272b57f2580\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\ea55c053abbce319b93046b653b15596\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\13e15bfd3efc18aef4c3feea191a1979\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2d513a0cf292a326aee5c36ec6b4c981\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4cbe5ff28b2e329f12870729b25e88d0\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9e29ae618f1e926666823666b5ba2392\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\040f806c3250367942d0efeddf1d3c97\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\51fe99e901a706bd6cdd45589c0bc08d\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7eb849dfa2c65790125f267221ec0d8a\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4c50d1a0ea95185b3dc234b959a0780d\butterknife-runtime-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9955aaafd073c506b0405f21cbdc1d12\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eac15fc3ebd2f011a8f75781272d5d2f\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\cbab8c907e0804ee5e645474a84ff79b\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7aacff64f52df8a51958dcbd063710f2\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eb6d6670e2cd021262071334da37daf3\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9fdc0618274f173315df88cbce639138\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7ad12ac0d241c9ba69f4e9dd99011888\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\327a05a7d233618e5d5c834c200bbcc8\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\51af829ef0d00ed561883db1f0b6c36f\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fcb9e9e3b42c78173ccdaa7520d6ad19\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6d267f2ba415a940932b349cc82279b7\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0c7dc87bcf02d70bbf2c8600dc93d9d6\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6f5632545969c14a832c1c0e9b739d0c\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\077611a95dc61662e0b6fd17d7f85461\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0df03085ffdd3c5ddb2c71b3e374455c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3ceae433f23e7facf65645623d120c13\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\38299049f8b2937dbda42dfa61061366\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\d4289de07cff4347eade8612378de7e0\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\e78468877c15e703f0f7c87dbd301b7b\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f82890dc97d89acdf798589f12192751\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\bc130c878155c4d98d7bb5bc91d89e80\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:animated-base:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f5304c16dd339ee69821aef3a656dc91\animated-base-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\142692600a82a857b2bf294566a9bd52\jetified-animated-drawable-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\99fddf9ed06598c890225e86d3286b24\jetified-drawee-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c2204992d532fc2da41ae89637c4d95\nativeimagefilters-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dbf19bf70753c7f07a417aa92d76538e\jetified-imagepipeline-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b818182f516711ebc109ddc32b2b3fbb\jetified-imagepipeline-base-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\009a0fde503ef9e68f3fbb96cef7e188\jetified-fbcore-1.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553db533e74e3d022e2f8a57cd88ca77\soloader-0.5.1\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+	package
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:1-92:12
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:8:5-90:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c4cbe32ec512dac4b09a29c87b2caec\constraintlayout-2.0.0-beta3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c4cbe32ec512dac4b09a29c87b2caec\constraintlayout-2.0.0-beta3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\aa247d74ab18bde476ad979ae0100be8\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\aa247d74ab18bde476ad979ae0100be8\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-places:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\83702c60c825f64ed207079ac6f3926d\play-services-places-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\83702c60c825f64ed207079ac6f3926d\play-services-places-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3c225944cdf48fbc5e482e34b54947c2\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3c225944cdf48fbc5e482e34b54947c2\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\33c6da4707f9528880738297c401bf6e\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\33c6da4707f9528880738297c401bf6e\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eabe065470631c2dac59f57eb3605496\fab-1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eabe065470631c2dac59f57eb3605496\fab-1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:45:5-53:19
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:30:5-130:19
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:30:5-130:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c5d5cac45049534d72334f2ac342c62a\play-services-tagmanager-v4-impl-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c5d5cac45049534d72334f2ac342c62a\play-services-tagmanager-v4-impl-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe72aa414a1fd04bcef84bef4abf063f\play-services-vision-common-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe72aa414a1fd04bcef84bef4abf063f\play-services-vision-common-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\90c9fd79256f5301f4cf846b596e4ef7\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\90c9fd79256f5301f4cf846b596e4ef7\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3b9bc9c8d46553cbf58ce57d3067c751\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3b9bc9c8d46553cbf58ce57d3067c751\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b3a91da8788ae8554545767a85848749\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b3a91da8788ae8554545767a85848749\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe930349db80ff310114240ed57e12b1\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe930349db80ff310114240ed57e12b1\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9ca1843210b071da79a05d0d46a6eef3\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9ca1843210b071da79a05d0d46a6eef3\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\557bf65be37f216c7e8b86b7e7ca860c\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\557bf65be37f216c7e8b86b7e7ca860c\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\327a05a7d233618e5d5c834c200bbcc8\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\327a05a7d233618e5d5c834c200bbcc8\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:24:5-28:19
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553db533e74e3d022e2f8a57cd88ca77\soloader-0.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553db533e74e3d022e2f8a57cd88ca77\soloader-0.5.1\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:12:9-51
+	android:icon
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:14:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:15:9-69
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:17:9-19:71
+	android:value
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:19:13-68
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:18:13-58
+activity#com.ecar.energybite.activity.BaseActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:21:9-68
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:21:19-56
+activity#com.ecar.energybite.activity.MainActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:22:9-33:20
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:25:13-45
+	android:configChanges
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:24:13-74
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:26:13-51
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:23:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.ecar.energybite.activity.LoginActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:37:9-39:60
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:39:13-57
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:38:13-51
+activity#com.ecar.energybite.activity.HomeActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:40:9-43:59
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:42:13-56
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:41:13-50
+activity#com.ecar.energybite.activity.SettingsActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:44:9-47:68
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:46:13-60
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:45:13-54
+activity#com.ecar.energybite.activity.MapActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:48:9-51:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:50:13-59
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:49:13-49
+activity#com.ecar.energybite.activity.PrefActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:53:9-56:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:55:13-66
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:56:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:54:13-50
+activity#com.ecar.energybite.activity.BookingStatusActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:57:9-60:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:59:13-66
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:58:13-59
+activity#com.ecar.energybite.activity.UserVehicleActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:61:9-64:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:63:13-62
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:64:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:62:13-57
+activity#com.ecar.energybite.activity.AddVehicleActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:65:9-68:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:67:13-62
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:68:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:66:13-56
+activity#com.ecar.energybite.activity.MyBookingActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:69:9-72:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:71:13-62
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:72:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:70:13-55
+activity#com.ecar.energybite.activity.MyLocationActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:73:9-76:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:75:13-63
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:74:13-56
+activity#com.ecar.energybite.activity.UserProfileActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:77:9-80:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:79:13-62
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:78:13-57
+activity#com.ecar.energybite.activity.ScannedBarcodeActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:82:9-85:58
+	android:label
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:84:13-65
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:83:13-60
+activity#com.ecar.energybite.activity.SignUpActivity
+ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:86:9-88:58
+	android:theme
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:88:13-56
+	android:name
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:87:13-52
+uses-sdk
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c4cbe32ec512dac4b09a29c87b2caec\constraintlayout-2.0.0-beta3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c4cbe32ec512dac4b09a29c87b2caec\constraintlayout-2.0.0-beta3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\aa247d74ab18bde476ad979ae0100be8\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\aa247d74ab18bde476ad979ae0100be8\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4b34bb880c3b2242ba4cdd5d52e9bb02\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4b34bb880c3b2242ba4cdd5d52e9bb02\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5e2b9a1bab17b8f923ea533dd4f62b64\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5e2b9a1bab17b8f923ea533dd4f62b64\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f68979701bee69e3140d72e6bc58c2a5\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f68979701bee69e3140d72e6bc58c2a5\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\40ab12df7600040601bc2bd91cc0adf2\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\40ab12df7600040601bc2bd91cc0adf2\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7c91e8c807d6ba5b9117aea8468e0e3c\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7c91e8c807d6ba5b9117aea8468e0e3c\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\83702c60c825f64ed207079ac6f3926d\play-services-places-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\83702c60c825f64ed207079ac6f3926d\play-services-places-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3c225944cdf48fbc5e482e34b54947c2\play-services-vision-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3c225944cdf48fbc5e482e34b54947c2\play-services-vision-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\33c6da4707f9528880738297c401bf6e\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\33c6da4707f9528880738297c401bf6e\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eabe065470631c2dac59f57eb3605496\fab-1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eabe065470631c2dac59f57eb3605496\fab-1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:19:5-43
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6084af541dcc39a3ea1cc1ff24cc97be\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6084af541dcc39a3ea1cc1ff24cc97be\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c8b79d4132232d3f821540e58a858501\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c8b79d4132232d3f821540e58a858501\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:21:5-23:41
+MERGED from [com.facebook.fresco:fresco:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3f63774c659ce1c42110de23ab939d27\jetified-fresco-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3f63774c659ce1c42110de23ab939d27\jetified-fresco-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553cf93169d137dd19324ee0235bfc1f\animated-gif-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553cf93169d137dd19324ee0235bfc1f\animated-gif-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\df4f11974ba8786001fd18c6d1c9f1da\butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\df4f11974ba8786001fd18c6d1c9f1da\butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c5d5cac45049534d72334f2ac342c62a\play-services-tagmanager-v4-impl-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\c5d5cac45049534d72334f2ac342c62a\play-services-tagmanager-v4-impl-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe72aa414a1fd04bcef84bef4abf063f\play-services-vision-common-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe72aa414a1fd04bcef84bef4abf063f\play-services-vision-common-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\90c9fd79256f5301f4cf846b596e4ef7\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\90c9fd79256f5301f4cf846b596e4ef7\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9b6c6e3583369f2d7b4cbbac69466d9c\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9b6c6e3583369f2d7b4cbbac69466d9c\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3b9bc9c8d46553cbf58ce57d3067c751\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3b9bc9c8d46553cbf58ce57d3067c751\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b3a91da8788ae8554545767a85848749\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b3a91da8788ae8554545767a85848749\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe930349db80ff310114240ed57e12b1\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fe930349db80ff310114240ed57e12b1\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9ca1843210b071da79a05d0d46a6eef3\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9ca1843210b071da79a05d0d46a6eef3\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\557bf65be37f216c7e8b86b7e7ca860c\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\557bf65be37f216c7e8b86b7e7ca860c\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\100ad73feb78087e552b8272b57f2580\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\100ad73feb78087e552b8272b57f2580\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\ea55c053abbce319b93046b653b15596\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\ea55c053abbce319b93046b653b15596\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\13e15bfd3efc18aef4c3feea191a1979\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\13e15bfd3efc18aef4c3feea191a1979\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2d513a0cf292a326aee5c36ec6b4c981\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2d513a0cf292a326aee5c36ec6b4c981\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4cbe5ff28b2e329f12870729b25e88d0\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4cbe5ff28b2e329f12870729b25e88d0\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9e29ae618f1e926666823666b5ba2392\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9e29ae618f1e926666823666b5ba2392\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\040f806c3250367942d0efeddf1d3c97\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\040f806c3250367942d0efeddf1d3c97\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\51fe99e901a706bd6cdd45589c0bc08d\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\51fe99e901a706bd6cdd45589c0bc08d\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7eb849dfa2c65790125f267221ec0d8a\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7eb849dfa2c65790125f267221ec0d8a\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4c50d1a0ea95185b3dc234b959a0780d\butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\4c50d1a0ea95185b3dc234b959a0780d\butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9955aaafd073c506b0405f21cbdc1d12\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9955aaafd073c506b0405f21cbdc1d12\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eac15fc3ebd2f011a8f75781272d5d2f\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eac15fc3ebd2f011a8f75781272d5d2f\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\cbab8c907e0804ee5e645474a84ff79b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\cbab8c907e0804ee5e645474a84ff79b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7aacff64f52df8a51958dcbd063710f2\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7aacff64f52df8a51958dcbd063710f2\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eb6d6670e2cd021262071334da37daf3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\eb6d6670e2cd021262071334da37daf3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9fdc0618274f173315df88cbce639138\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9fdc0618274f173315df88cbce639138\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7ad12ac0d241c9ba69f4e9dd99011888\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\7ad12ac0d241c9ba69f4e9dd99011888\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\327a05a7d233618e5d5c834c200bbcc8\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\327a05a7d233618e5d5c834c200bbcc8\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\51af829ef0d00ed561883db1f0b6c36f\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\51af829ef0d00ed561883db1f0b6c36f\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fcb9e9e3b42c78173ccdaa7520d6ad19\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fcb9e9e3b42c78173ccdaa7520d6ad19\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6d267f2ba415a940932b349cc82279b7\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6d267f2ba415a940932b349cc82279b7\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0c7dc87bcf02d70bbf2c8600dc93d9d6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0c7dc87bcf02d70bbf2c8600dc93d9d6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6f5632545969c14a832c1c0e9b739d0c\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\6f5632545969c14a832c1c0e9b739d0c\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\077611a95dc61662e0b6fd17d7f85461\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\077611a95dc61662e0b6fd17d7f85461\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0df03085ffdd3c5ddb2c71b3e374455c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0df03085ffdd3c5ddb2c71b3e374455c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3ceae433f23e7facf65645623d120c13\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\3ceae433f23e7facf65645623d120c13\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\38299049f8b2937dbda42dfa61061366\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\38299049f8b2937dbda42dfa61061366\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\d4289de07cff4347eade8612378de7e0\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\d4289de07cff4347eade8612378de7e0\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\e78468877c15e703f0f7c87dbd301b7b\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\e78468877c15e703f0f7c87dbd301b7b\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f82890dc97d89acdf798589f12192751\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f82890dc97d89acdf798589f12192751\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\bc130c878155c4d98d7bb5bc91d89e80\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\bc130c878155c4d98d7bb5bc91d89e80\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:animated-base:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f5304c16dd339ee69821aef3a656dc91\animated-base-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f5304c16dd339ee69821aef3a656dc91\animated-base-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\142692600a82a857b2bf294566a9bd52\jetified-animated-drawable-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\142692600a82a857b2bf294566a9bd52\jetified-animated-drawable-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\99fddf9ed06598c890225e86d3286b24\jetified-drawee-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\99fddf9ed06598c890225e86d3286b24\jetified-drawee-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c2204992d532fc2da41ae89637c4d95\nativeimagefilters-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\2c2204992d532fc2da41ae89637c4d95\nativeimagefilters-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dbf19bf70753c7f07a417aa92d76538e\jetified-imagepipeline-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dbf19bf70753c7f07a417aa92d76538e\jetified-imagepipeline-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b818182f516711ebc109ddc32b2b3fbb\jetified-imagepipeline-base-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\b818182f516711ebc109ddc32b2b3fbb\jetified-imagepipeline-base-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\009a0fde503ef9e68f3fbb96cef7e188\jetified-fbcore-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.11.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\009a0fde503ef9e68f3fbb96cef7e188\jetified-fbcore-1.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553db533e74e3d022e2f8a57cd88ca77\soloader-0.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\553db533e74e3d022e2f8a57cd88ca77\soloader-0.5.1\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:27:5-68
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\5865630dda7f9404795ffdc92076b4de\play-services-analytics-impl-17.0.0\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:27:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:41:13-80
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\fa306f20678fec7cce1f404afa74d88c\play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:127:25-95
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:26:13-74

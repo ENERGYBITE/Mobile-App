@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity">
+
+
+    <!--<easybite.easybite.com.easybite.widget.CustomSpinner-->
+    <!--android:id="@+id/spVehicleModel"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Model"-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:maxLines="1"-->
+    <!--app:dialog_title="Select Model"-->
+    <!--app:dialog_type="bottom_sheet"-->
+    <!--app:orientation="linear_vertical"-->
+    <!--android:theme="@style/TextLabel.Small"/>-->
+
+    <!--<easybite.easybite.com.easybite.widget.CustomSpinner-->
+    <!--android:id="@+id/spYear"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Year"-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:maxLines="1"-->
+    <!--app:dialog_title="Select Year"-->
+    <!--app:dialog_type="bottom_sheet"-->
+    <!--app:orientation="linear_vertical"-->
+    <!--android:theme="@style/TextLabel.Small"/>-->
+
+    <!--<easybite.easybite.com.easybite.widget.CustomSpinner-->
+    <!--android:id="@+id/spColor"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Color"-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:maxLines="1"-->
+    <!--app:dialog_title="Select Title"-->
+    <!--app:dialog_type="bottom_sheet"-->
+    <!--app:orientation="linear_vertical"-->
+    <!--android:theme="@style/TextLabel.Small"/>-->
+
+    <!--<easybite.easybite.com.easybite.widget.CustomEditText-->
+    <!--android:id="@+id/etRegNumber"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Registration Number"-->
+    <!--android:imeOptions="actionDone"-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:maxLines="1"-->
+    <!--android:theme="@style/TextLabel.Small" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:minHeight="140dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/add_my_ev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:minHeight="50sp"
+            android:padding="20dp">
+
+
+            <Spinner
+                android:id="@+id/make"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Make"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+
+            <Spinner
+                android:id="@+id/model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/make"
+                android:autofillHints="Model"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+
+            <Spinner
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/model"
+                android:autofillHints="Year"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/year"
+                android:autofillHints="Color"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/color"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+
+                <EditText
+                    android:id="@+id/regno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/color"
+                    android:ems="10"
+                    android:hint="Registration Number"
+                    android:inputType="text"
+                    android:text=""
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visibility="gone">
+
+
+                <EditText
+                    android:id="@+id/EVid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number|text"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/add_ev"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regno"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center|fill"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shapelogin"
+            android:text="ADD your EV"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

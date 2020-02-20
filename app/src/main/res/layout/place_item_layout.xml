@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_eliptical_rectangle"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_rect_border_chip"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll_charger_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_charger_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="Charger Name"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_charger_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="54321"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_charger_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_charger_name"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_charger_type_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="Charger Type"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_charger_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="CCS"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvChargerCurrentType"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/circular_chip"
+            android:gravity="center"
+            android:text="AC"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_charger_type"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAvailable"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Available"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxEms="6"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/circular_corner_button_avialable"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvNotAvailable"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Unavailable"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:maxLength="7"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/circular_corner_button_unavialable"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_price"
+            android:visibility="visible"
+            android:text="\u20B9 6/kWh"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/circular_corner_button_book"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:id="@+id/tvBook"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:minWidth="80dp"
+            android:text="Book"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/circular_corner_button_book" />
+    </LinearLayout>
+</LinearLayout>

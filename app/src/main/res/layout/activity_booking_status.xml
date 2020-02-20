@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/booking_status_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.BookingStatusActivity">
+
+        <RelativeLayout
+            android:id="@+id/rl_header_content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/ivStatusIcon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/baseline_check_circle_outline_black_48"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_icon_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivStatusIcon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:text="Success"
+                android:textColor="#CA247A"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_icon_label"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:maxLines="1"
+                android:text="Waiting for charging"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMyAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStatus"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circular_corner_button_book"
+                android:ellipsize="end"
+                android:layout_toLeftOf="@+id/tvNewBooking"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minWidth="80dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:text="Continue to My Account"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvNewBooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStatus"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circular_corner_button_book"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minWidth="80dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:text="New Booking"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvViewBookings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStatus"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@id/tvNewBooking"
+                android:background="@drawable/circular_corner_button_book"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minWidth="80dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:text="View Booking"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:paddingRight="20dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/circular_corner_button_book"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:padding="5dp"
+                    android:src="@drawable/baseline_center_focus_strong_black_48"
+                    android:tint="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/ivShareDetail"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/circular_corner_button_book"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:padding="5dp"
+                    android:src="@drawable/baseline_share_black_48"
+                    android:tint="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/ivRefreshStatus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/circular_corner_button_book"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:padding="5dp"
+                    android:src="@drawable/baseline_refresh_black_48"
+                    android:tint="@android:color/white" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_detail_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_header_content_container"
+            android:layout_marginTop="20dp"
+            android:background="#e0e0e0"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvTransactionId"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Transaction Id" />
+
+            <TextView
+                android:id="@+id/tvTransactionCode"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvTransactionId"
+                android:gravity="right"
+                android:text="NA" />
+
+            <TextView
+                android:id="@+id/tvChargingPointTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTransactionId"
+                android:layout_alignParentLeft="true"
+                android:text="Charging Point" />
+
+            <TextView
+                android:id="@+id/tvChargingPoint"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTransactionCode"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvChargingPointTitle"
+                android:gravity="right"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tvChargingTypeTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvChargingPointTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/tvChargingType"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvChargingPoint"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvChargingTypeTitle"
+                android:gravity="right"
+                android:text="DC" />
+
+            <TextView
+                android:id="@+id/tvBookingTimeTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvChargingTypeTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Start Time" />
+
+            <TextView
+                android:id="@+id/tvBookingTime"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvChargingType"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvBookingTimeTitle"
+                android:gravity="right"
+                android:text="NA" />
+
+            <TextView
+                android:id="@+id/tvStopTimeTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvBookingTimeTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Stop Time"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStopTime"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvBookingTime"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvStopTimeTitle"
+                android:gravity="right"
+                android:text="NA"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStartReadingTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStopTimeTitle"
+                android:layout_alignParentLeft="true"
+                android:text="First Reading"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStartReading"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStopTime"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvStartReadingTitle"
+                android:gravity="right"
+                android:text="NA"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStopReadingTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStartReadingTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Last Reading"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvStopReading"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStartReading"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvStopReadingTitle"
+                android:gravity="right"
+                android:text="NA"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvTotalUnitTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStopReadingTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Total Unit"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvTotalUnit"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvStopReading"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvTotalUnitTitle"
+                android:gravity="right"
+                android:text="NA"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvPriceTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTotalUnitTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Price per Unit"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTotalUnit"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvPriceTitle"
+                android:gravity="right"
+                android:text="NA"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvTotalAmountTitle"
+                style="@style/booking_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPriceTitle"
+                android:layout_alignParentLeft="true"
+                android:text="Total Amount" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                style="@style/booking_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPrice"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/tvTotalAmountTitle"
+                android:gravity="right"
+                android:text="NA" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/paymentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_detail_container"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/edtDiscountCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="28dp"
+                android:drawablePadding="10dp"
+                android:hint="Coupon Code"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHighlight="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/holo_blue_dark"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/edtDiscountCode"
+                android:background="@drawable/circular_corner_button_book"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:minWidth="80dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="Pay"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

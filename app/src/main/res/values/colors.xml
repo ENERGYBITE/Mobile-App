@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#2979FF</color>
+    <color name="colorIcon">#616161</color>
+    <color name="colorIconSelected">#02A1DE</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorHintText">#000</color>
+    <color name="colorErrorText">#D50000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#E0E0E0</color>
+    <color name="colorGrayDark">#BDBDBD</color>
+    <color name="colorDefaultText">#000</color>
+    <color name="colorDialogTitle">#36393a</color>
+    <color name="colorDialogButton">#D50000</color>
+    <color name="colorDialogBody">#616161</color>
+    <color name="colorBackground">#46FFFFFF</color>
+    <color name="colorInverseText">#fff</color>
+    <color name="colorInverseHintText">#fff</color>
+    <color name="colorGray600">#757575</color>
+    <color name="colorGreen">#689F38</color>
+
+</resources>

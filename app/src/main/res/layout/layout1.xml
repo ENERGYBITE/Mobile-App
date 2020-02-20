@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="120dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_label"
+        android:text="No Report Found"
+        android:textSize="16sp"
+        android:textColor="#00897b"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sublabel"
+        android:text="There is no recent report to show"
+        android:textSize="12sp"
+        android:textColor="#424242"
+        android:layout_below="@id/tv_label"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:id="@+id/iv_icon"
+        android:src="@drawable/baseline_directions_car_black_48"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_sublabel"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Book a Test Now"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:background="#4ACFA0"
+        android:elevation="6dp"
+        android:shadowRadius="6"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/iv_icon"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

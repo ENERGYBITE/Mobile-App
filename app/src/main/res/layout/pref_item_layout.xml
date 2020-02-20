@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pref_title"
+        android:ellipsize="end"
+        android:text="Network &amp; Internet"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pref_data"
+        android:ellipsize="end"
+        android:text="Wi-Fi, mobile, data usage, hotspot"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="80dp"
+        android:id="@+id/tvBook"
+        android:text="Book"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:visibility="gone"
+        android:background="@drawable/circular_corner_button_book" />
+
+</LinearLayout>

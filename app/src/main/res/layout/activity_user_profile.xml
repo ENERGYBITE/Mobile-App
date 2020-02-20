@@ -1,0 +1,215 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/drawable_dashboard_bg"
+    android:layout_height="match_parent">
+
+    <!--<com.google.android.material.appbar.AppBarLayout-->
+        <!--android:id="@+id/app_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_marginEnd="-5dp"-->
+        <!--android:layout_marginStart="-5dp"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+        <!--<com.google.android.material.appbar.CollapsingToolbarLayout-->
+            <!--android:id="@+id/toolbar_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/drawable_dashboard_bg"-->
+            <!--android:fitsSystemWindows="true"-->
+            <!--app:layout_scrollFlags="scroll">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/ivHeaderBG"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:src="@color/colorPrimary" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<androidx.appcompat.widget.Toolbar-->
+                <!--android:id="@+id/toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--app:layout_collapseMode="pin"-->
+                <!--app:popupTheme="@style/AppTheme.PopupOverlay">-->
+
+                <!--<include-->
+                    <!--android:id="@+id/toolbarHeaderLayout"-->
+                    <!--layout="@layout/collapsible_header_layout"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:visibility="gone" />-->
+            <!--</androidx.appcompat.widget.Toolbar>-->
+
+        <!--</com.google.android.material.appbar.CollapsingToolbarLayout>-->
+    <!--</com.google.android.material.appbar.AppBarLayout>-->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_overlapTop="100dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="?actionBarSize"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/headerContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                app:layout_anchorGravity="center">
+
+                <com.ecar.energybite.widget.CircularImageView
+                    android:id="@+id/civUserImage"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvBasicInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="60dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:id="@+id/ivEditUserInfo"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="end"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_edit"
+                        android:tint="?colorPrimaryDark" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tvUserName"
+                            style="@style/UserLabel.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Anoop Kumar Gupta"
+                            android:textColor="?colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tvUserEmail"
+                            style="@style/UserLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_email"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/colorPrimary"
+                            android:text="anoop.gupta.lko@gmail.com"
+                            android:textColor="@color/colorGray600" />
+
+                        <TextView
+                            android:id="@+id/tvUserContact"
+                            style="@style/UserLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/colorPrimary"
+                            android:text="+91-8005428911"
+                            android:textColor="@color/colorGray600" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/headerContainer"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvPersonalInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="3dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Personal Information"
+                                android:textColor="?colorPrimary"
+                                android:textSize="20sp" />
+
+                            <ImageView
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_gravity="end"
+                                android:src="@drawable/ic_edit"
+                                android:tint="?colorPrimaryDark" />
+                        </RelativeLayout>
+
+                        <com.ecar.energybite.widget.CustomTextView
+                            android:id="@+id/ctvPrimaryAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Primary Address"
+                            android:inputType="textMultiLine"
+                            android:text="529/546 KA Raheem Nagar, Mahanagar, \nLucknow - 226006"
+                            android:theme="@style/TextLabel.Small" />
+
+                        <com.ecar.energybite.widget.CustomTextView
+                            android:id="@+id/ctvSecondaryAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Temporary Address"
+                            android:inputType="textMultiLine"
+                            android:text="C-87/A Paryavaran Complex, Saidullajab, New Delhi - 110031"
+                            android:theme="@style/TextLabel.Small" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

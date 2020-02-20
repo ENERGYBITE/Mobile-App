@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="picker_title" format="string|reference"/>
+    <declare-styleable name="LoaderView">
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="loaderType" format="enum">
+            <enum name="reveal" value="1"/>
+            <enum name="panning" value="2"/>
+        </attr>
+        <attr name="loaderIcon" format="reference"/>
+        <attr name="loaderHeading" format="string|reference"/>
+        <attr name="loaderMessage" format="string|reference"/>
+        <attr name="loaderDesc" format="string|reference"/>
+        <attr name="backgroundColor" format="color|reference"/>
+        <attr name="backgroundDrawable" format="reference"/>
+        <attr name="revealColor" format="color|reference"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalNumberPicker">
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="selectedTextColor" format="color|reference"/>
+        <attr name="showSelectionEncircled" format="boolean"/>
+        <attr name="showTitleInCenter" format="boolean"/>
+        <attr name="selectedTextSize" format="dimension"/>
+        <attr name="minValue" format="integer"/>
+        <attr name="maxValue" format="integer"/>
+        <attr name="valueDifference" format="integer"/>
+        <attr name="values" format="reference"/>
+        <attr name="android:ellipsize"/>
+        <attr name="dividerSize" format="dimension"/>
+        <attr name="sideItems" format="integer"/>
+        <attr name="selectedItems" format="integer"/>
+        <attr name="circleStrokeWidth" format="float"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="circlePadding" format="dimension"/>
+        <attr name="picker_title"/>
+        <attr name="titleTextSize" format="dimension"/>
+    </declare-styleable>
+    <attr name="horizontalNumberPickerStyle" format="reference"/>
+
+    <declare-styleable name="FlowLayoutView">
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="verticalSpacing" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayoutView_LayoutParams">
+        <attr name="layout_spacing" format="dimension"/>
+        <attr name="breakline" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float"/>
+        <attr name="absoluteMaxValue" format="integer|float"/>
+        <attr name="singleThumb" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="dialog_type" format="enum">
+        <enum name="bottom_sheet" value="1"/>
+        <enum name="popup" value="2"/>
+    </attr>
+    <attr name="dialog_title" format="string"/>
+
+
+
+    <attr name="hintTextAppearance" format="reference"/>
+    <declare-styleable name="CustomSpinner">
+        <attr name="hintTextAppearance"/>
+    </declare-styleable>
+    <declare-styleable name="CustomEditText">
+        <attr name="hintTextAppearance"/>
+    </declare-styleable>
+    <declare-styleable name="ZSpinner">
+        <attr name="isShowDropDown" format="boolean"/>
+        <attr name="orientation" format="enum">
+            <enum name="linear_vertical" value="1"/>
+            <enum name="linear_horizontal" value="2"/>
+            <enum name="grid" value="3"/>
+            <enum name="custom" value="4"/>
+        </attr>
+        <attr name="dialog_type"/>
+        <attr name="item_view_layout" format="reference"/>
+        <attr name="options_view_height" format="dimension">
+            <enum name="full_screen" value="-1"/>
+        </attr>
+        <attr name="grid_column" format="integer"/>
+        <attr name="dialog_title"/>
+        <attr name="max_row_count_to_fullscreen" format="integer"/>
+        <attr name="custom_layout" format="reference"/>
+        <attr name="dialog_header_background" format="color"/>
+        <attr name="dialog_background" format="color"/>
+        <attr name="multiselect" format="boolean"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="ZDateTimePicker">
+        <attr name="date_time_picker_type" format="enum">
+            <enum name="calendar" value="1"/>
+            <enum name="range_calendar" value="2"/>
+            <enum name="calender_with_time" value="3"/>
+            <enum name="range_calender_with_time" value="4"/>
+            <enum name="month_calendar" value="5"/>
+            <enum name="dob_calendar" value="6"/>
+        </attr>
+
+        <attr name="time_picker_type" format="enum">
+            <enum name="hours_only" value="1"/>
+            <enum name="hour_minute" value="2"/>
+        </attr>
+
+        <attr name="secondary_calendar_optional" format="boolean"/>
+        <attr name="enable_time_picker" format="boolean"/>
+        <attr name="is_time_mendatory" format="boolean"/>
+        <attr name="hide_time_range_options" format="boolean"/>
+
+        <attr name="dialog_title"/>
+        <attr name="primary_calendar_title" format="string"/>
+        <attr name="secondary_calendar_title" format="string"/>
+
+        <attr name="primary_time_picker_title" format="string"/>
+        <attr name="secondary_time_picker_title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ZSwitch">
+        <attr name="thumbDrawable" format="reference"/>
+        <attr name="thumbColor" format="color|reference"/>
+        <attr name="thumbMargin" format="dimension|reference"/>
+        <attr name="thumbMarginTop" format="dimension|reference"/>
+        <attr name="thumbMarginBottom" format="dimension|reference"/>
+        <attr name="thumbMarginLeft" format="dimension|reference"/>
+        <attr name="thumbMarginRight" format="dimension|reference"/>
+        <attr name="thumbWidth" format="dimension|reference"/>
+        <attr name="thumbHeight" format="dimension|reference"/>
+        <attr name="thumbRadius" format="dimension|reference"/>
+        <attr name="backRadius" format="dimension|reference"/>
+        <attr name="backDrawable" format="reference"/>
+        <attr name="backColor" format="color|reference"/>
+        <attr name="fadeBack" format="boolean"/>
+        <attr name="backMeasureRatio" format="float"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="tintColor" format="color|reference"/>
+        <attr name="textOn" format="string"/>
+        <attr name="textOff" format="string"/>
+        <attr name="textMarginH" format="dimension"/>
+        <attr name="autoAdjustTextPosition" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ZNumberPicker">
+        <attr name="horizontal_view" format="boolean"/>
+        <attr name="picker_title"/>
+        <attr name="picker_subtitle" format="string|reference"/>
+        <attr name="picker_minCount" format="integer|reference"/>
+        <attr name="picker_maxCount" format="integer|reference"/>
+        <attr name="picker_value" format="integer|reference"/>
+    </declare-styleable>
+    <declare-styleable name="TicketView">
+        <attr name="tv_anchor" format="reference"/>
+        <attr name="tv_drawableAnchorAbove" format="reference"/>
+        <attr name="tv_backgroundColorAnchorAbove" format="color|reference"/>
+        <attr name="tv_holeRadius" format="float"/>
+        <attr name="tv_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_circle_background_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr name="anchorPoint" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="PanningView">
+        <attr name="panningDurationInMs" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ConnectedDots">
+        <attr name="cd_anchor" format="reference"/>
+        <attr name="cd_drawableAnchorAbove" format="reference"/>
+        <attr name="cd_backgroundColorAnchorAbove" format="color|reference"/>
+        <attr name="cd_distance" format="float"/>
+        <attr name="cd_radius" format="float"/>
+        <attr name="cd_start_color" format="color"/>
+        <attr name="cd_end_color" format="color"/>
+        <attr name="cd_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

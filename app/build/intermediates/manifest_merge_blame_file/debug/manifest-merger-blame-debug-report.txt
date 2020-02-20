@@ -1,0 +1,491 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecar.energybite"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <!-- Include required permissions for Analytics to run. -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:23:5-67
+15-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:23:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for Analytics to run. -->
+16-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:24:5-79
+16-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:24:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+17-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:27:5-68
+17-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:27:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+18-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\435aaf4a8d5ed7224477b3d78a7170f4\play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23
+24    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+24-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:21:5-65
+24-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:21:22-62
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+26        android:name="android.hardware.camera"
+26-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+29        android:name="android.hardware.camera.front"
+29-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+30        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+30-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+31    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+33        android:name="android.hardware.camera.autofocus"
+33-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+36        android:name="android.hardware.camera.flash"
+36-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+39        android:name="android.hardware.screen.landscape"
+39-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+40        android:required="false" />
+40-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+41    <uses-feature
+41-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+42        android:name="android.hardware.wifi"
+42-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+43        android:required="false" />
+43-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+44
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+45-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:27:5-81
+45-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:27:22-78
+46    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+46-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:28:5-77
+46-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:28:22-74
+47
+48    <application
+48-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:8:5-90:19
+49        android:allowBackup="true"
+49-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:9:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.1.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\1c9e839d922dabec7e66cfb738500107\core-1.1.0\AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:10:9-43
+53        android:label="@string/app_name"
+53-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:11:9-41
+54        android:networkSecurityConfig="@xml/network_security_config"
+54-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:15:9-69
+55        android:roundIcon="@drawable/login_page_f"
+55-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:12:9-51
+56        android:supportsRtl="true"
+56-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:13:9-35
+57        android:theme="@style/AppTheme" >
+57-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:14:9-40
+58        <meta-data
+58-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:17:9-19:71
+59            android:name="com.google.android.geo.API_KEY"
+59-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:18:13-58
+60            android:value="AIzaSyCXoUZZ7FocDU1NSN4cueKrUNDHJyfJKzo" />
+60-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:19:13-68
+61
+62        <activity android:name="com.ecar.energybite.activity.BaseActivity" />
+62-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:21:9-68
+62-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:21:19-56
+63        <activity
+63-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:22:9-33:20
+64            android:name="com.ecar.energybite.activity.MainActivity"
+64-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:23:13-50
+65            android:configChanges="orientation|keyboardHidden|screenSize"
+65-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:24:13-74
+66            android:label="@string/app_name"
+66-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:25:13-45
+67            android:theme="@style/FullscreenTheme" >
+67-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:26:13-51
+68            <intent-filter>
+68-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:28:13-32:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:29:17-69
+69-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:29:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:31:17-77
+71-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:31:27-74
+72            </intent-filter>
+73        </activity>
+74        <!-- <activity -->
+75        <!-- android:name=".activity.MainActivity" -->
+76        <!-- android:theme="@style/Theme.AppCompat.Light" /> -->
+77        <activity
+77-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:37:9-39:60
+78            android:name="com.ecar.energybite.activity.LoginActivity"
+78-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:38:13-51
+79            android:theme="@style/Theme.AppCompat.Light" />
+79-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:39:13-57
+80        <activity
+80-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:40:9-43:59
+81            android:name="com.ecar.energybite.activity.HomeActivity"
+81-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:41:13-50
+82            android:label="@string/title_activity_home"
+82-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:42:13-56
+83            android:theme="@style/AppTheme.NoActionBar" />
+83-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:43:13-56
+84        <activity
+84-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:44:9-47:68
+85            android:name="com.ecar.energybite.activity.SettingsActivity"
+85-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:45:13-54
+86            android:label="@string/title_activity_settings"
+86-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:46:13-60
+87            android:theme="@style/AppTheme.NoActionBar" />
+87-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:47:13-56
+88        <activity
+88-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:48:9-51:58
+89            android:name="com.ecar.energybite.activity.MapActivity"
+89-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:49:13-49
+90            android:label="@string/title_activity_station"
+90-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:50:13-59
+91            android:theme="@style/AppTheme.NoActionBar" />
+91-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:51:13-56
+92        <activity
+92-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:53:9-56:58
+93            android:name="com.ecar.energybite.activity.PrefActivity"
+93-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:54:13-50
+94            android:label="@string/title_activity_station_detail"
+94-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:55:13-66
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:56:13-56
+96        <activity
+96-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:57:9-60:58
+97            android:name="com.ecar.energybite.activity.BookingStatusActivity"
+97-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:58:13-59
+98            android:label="@string/title_activity_booking_status"
+98-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:59:13-66
+99            android:theme="@style/AppTheme.NoActionBar" />
+99-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:60:13-56
+100        <activity
+100-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:61:9-64:58
+101            android:name="com.ecar.energybite.activity.UserVehicleActivity"
+101-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:62:13-57
+102            android:label="@string/title_activity_my_vehicle"
+102-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:63:13-62
+103            android:theme="@style/AppTheme.NoActionBar" />
+103-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:64:13-56
+104        <activity
+104-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:65:9-68:58
+105            android:name="com.ecar.energybite.activity.AddVehicleActivity"
+105-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:66:13-56
+106            android:label="@string/title_activity_my_vehicle"
+106-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:67:13-62
+107            android:theme="@style/AppTheme.NoActionBar" />
+107-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:68:13-56
+108        <activity
+108-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:69:9-72:58
+109            android:name="com.ecar.energybite.activity.MyBookingActivity"
+109-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:70:13-55
+110            android:label="@string/title_activity_my_booking"
+110-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:71:13-62
+111            android:theme="@style/AppTheme.NoActionBar" />
+111-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:72:13-56
+112        <activity
+112-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:73:9-76:58
+113            android:name="com.ecar.energybite.activity.MyLocationActivity"
+113-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:74:13-56
+114            android:label="@string/title_activity_my_location"
+114-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:75:13-63
+115            android:theme="@style/AppTheme.NoActionBar" />
+115-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:76:13-56
+116        <activity
+116-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:77:9-80:58
+117            android:name="com.ecar.energybite.activity.UserProfileActivity"
+117-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:78:13-57
+118            android:label="@string/title_activity_my_profile"
+118-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:79:13-62
+119            android:theme="@style/AppTheme.NoActionBar" />
+119-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:80:13-56
+120        <activity
+120-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:82:9-85:58
+121            android:name="com.ecar.energybite.activity.ScannedBarcodeActivity"
+121-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:83:13-60
+122            android:label="@string/title_activity_scan_bar_code"
+122-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:84:13-65
+123            android:theme="@style/AppTheme.NoActionBar" />
+123-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:85:13-56
+124        <activity
+124-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:86:9-88:58
+125            android:name="com.ecar.energybite.activity.SignUpActivity"
+125-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:87:13-52
+126            android:theme="@style/AppTheme.NoActionBar" />
+126-->C:\Users\Radius\AndroidStudioProjects\EnergyBite\app\src\main\AndroidManifest.xml:88:13-56
+127
+128        <receiver
+128-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:30:9-34:20
+129            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+129-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:31:13-78
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:32:13-35
+131            android:exported="false" >
+131-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:33:13-37
+132        </receiver>
+133
+134        <service
+134-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:36:9-39:40
+135            android:name="com.google.android.gms.analytics.AnalyticsService"
+135-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:37:13-77
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:38:13-35
+137            android:exported="false" />
+137-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:39:13-37
+138        <service
+138-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:40:9-44:72
+139            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+139-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:41:13-80
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:42:13-35
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:43:13-37
+142            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+142-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\450d04500fb44a95468c6d9d41a489b7\play-services-analytics-17.0.0\AndroidManifest.xml:44:13-69
+143        <uses-library
+143-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+144            android:name="org.apache.http.legacy"
+144-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+145            android:required="false" />
+145-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\98a7c692834a5b6043ed8a5bd3d6e77f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+146
+147        <activity
+147-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+148            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+148-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+149            android:clearTaskOnLaunch="true"
+149-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+150            android:screenOrientation="sensorLandscape"
+150-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+151            android:stateNotNeeded="true"
+151-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+152            android:theme="@style/zxing_CaptureTheme"
+152-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+153            android:windowSoftInputMode="stateAlwaysHidden" />
+153-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\0b3e373b03ef14edfc02a73da1a096a0\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+154
+155        <provider
+155-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:31:9-37:35
+156            android:name="androidx.work.impl.WorkManagerInitializer"
+156-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:32:13-69
+157            android:authorities="com.ecar.energybite.workmanager-init"
+157-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:33:13-68
+158            android:directBootAware="false"
+158-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:34:13-44
+159            android:exported="false"
+159-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:35:13-37
+160            android:multiprocess="true" />
+160-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:36:13-40
+161
+162        <service
+162-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:39:9-44:35
+163            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+163-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:40:13-88
+164            android:directBootAware="false"
+164-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:41:13-44
+165            android:enabled="@bool/enable_system_alarm_service_default"
+165-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:42:13-72
+166            android:exported="false" />
+166-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:43:13-37
+167        <service
+167-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:45:9-51:35
+168            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+168-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:46:13-84
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:47:13-44
+170            android:enabled="@bool/enable_system_job_service_default"
+170-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:48:13-70
+171            android:exported="true"
+171-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:49:13-36
+172            android:permission="android.permission.BIND_JOB_SERVICE" />
+172-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:50:13-69
+173        <service
+173-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:52:9-57:35
+174            android:name="androidx.work.impl.foreground.SystemForegroundService"
+174-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:53:13-81
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:54:13-44
+176            android:enabled="@bool/enable_system_foreground_service_default"
+176-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:55:13-77
+177            android:exported="false" />
+177-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:56:13-37
+178
+179        <receiver
+179-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:59:9-64:35
+180            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+180-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:60:13-88
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:61:13-44
+182            android:enabled="true"
+182-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:62:13-35
+183            android:exported="false" />
+183-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:63:13-37
+184        <receiver
+184-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:65:9-75:20
+185            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+185-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:66:13-106
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:67:13-44
+187            android:enabled="false"
+187-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:68:13-36
+188            android:exported="false" >
+188-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:69:13-37
+189            <intent-filter>
+189-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:71:13-74:29
+190                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+190-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:72:17-87
+190-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:72:25-84
+191                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+191-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:73:17-90
+191-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:73:25-87
+192            </intent-filter>
+193        </receiver>
+194        <receiver
+194-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:76:9-86:20
+195            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+195-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:77:13-104
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:78:13-44
+197            android:enabled="false"
+197-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:79:13-36
+198            android:exported="false" >
+198-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:80:13-37
+199            <intent-filter>
+199-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:82:13-85:29
+200                <action android:name="android.intent.action.BATTERY_OKAY" />
+200-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:83:17-77
+200-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:83:25-74
+201                <action android:name="android.intent.action.BATTERY_LOW" />
+201-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:84:17-76
+201-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:84:25-73
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:87:9-97:20
+205            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+205-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:88:13-104
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:89:13-44
+207            android:enabled="false"
+207-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:90:13-36
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:91:13-37
+209            <intent-filter>
+209-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:93:13-96:29
+210                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+210-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:94:17-83
+210-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:94:25-80
+211                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+211-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:95:17-82
+211-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:95:25-79
+212            </intent-filter>
+213        </receiver>
+214        <receiver
+214-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:98:9-107:20
+215            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+215-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:99:13-103
+216            android:directBootAware="false"
+216-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:100:13-44
+217            android:enabled="false"
+217-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:101:13-36
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:102:13-37
+219            <intent-filter>
+219-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:104:13-106:29
+220                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+220-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:105:17-79
+220-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:105:25-76
+221            </intent-filter>
+222        </receiver>
+223        <receiver
+223-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:108:9-119:20
+224            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+224-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:109:13-88
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:110:13-44
+226            android:enabled="false"
+226-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:111:13-36
+227            android:exported="false" >
+227-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:112:13-37
+228            <intent-filter>
+228-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:114:13-118:29
+229                <action android:name="android.intent.action.BOOT_COMPLETED" />
+229-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:115:17-79
+229-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:115:25-76
+230                <action android:name="android.intent.action.TIME_SET" />
+230-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:116:17-73
+230-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:116:25-70
+231                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+231-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:117:17-81
+231-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:117:25-78
+232            </intent-filter>
+233        </receiver>
+234        <receiver
+234-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:120:9-129:20
+235            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+235-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:121:13-99
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:122:13-44
+237            android:enabled="@bool/enable_system_alarm_service_default"
+237-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:123:13-72
+238            android:exported="false" >
+238-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:124:13-37
+239            <intent-filter>
+239-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:126:13-128:29
+240                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+240-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:127:17-98
+240-->[androidx.work:work-runtime:2.3.0-alpha03] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\dc150d9b0a27545cf2cec6a348aeecf2\work-runtime-2.3.0-alpha03\AndroidManifest.xml:127:25-95
+241            </intent-filter>
+242        </receiver>
+243
+244        <activity
+244-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+245            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+245-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+246            android:exported="false"
+246-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+247            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+247-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\78fde02f57bf17cd5cf4e1f500ca35db\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+248
+249        <meta-data
+249-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+250            android:name="com.google.android.gms.version"
+250-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+251            android:value="@integer/google_play_services_version" />
+251-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\f74d451efb6c5c493d43f869049ef356\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+252
+253        <service
+253-->[androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:25:9-27:40
+254            android:name="androidx.room.MultiInstanceInvalidationService"
+254-->[androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:26:13-74
+255            android:exported="false" />
+255-->[androidx.room:room-runtime:2.2.0] C:\Users\Radius\.gradle\caches\transforms-2\files-2.1\9a058591b81eb6a0d90cf89e84f8ed05\room-runtime-2.2.0\AndroidManifest.xml:27:13-37
+256    </application>
+257
+258</manifest>

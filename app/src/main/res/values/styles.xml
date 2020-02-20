@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="booking_detail_title">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="booking_detail">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextLabelAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/colorHintText</item>
+        <item name="android:textSize">@dimen/small_label_size</item>
+    </style>
+
+    <style name="ErrorLabelAppearance" parent="TextAppearance.Design.Error">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorErrorText</item>
+    </style>
+
+    <style name="ErrorLabelAppearance.Small">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorErrorText</item>
+    </style>
+    <style name="ErrorLabelAppearance.Regular">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorErrorText</item>
+    </style>
+    <style name="TextLabel" parent="Widget.Design.TextInputLayout">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/colorHintText</item>
+        <item name="colorControlNormal">?colorPrimary</item>
+        <item name="colorControlActivated">?colorPrimary</item>
+        <item name="colorControlHighlight">?colorPrimary</item>
+
+        <item name="errorTextAppearance">@style/ErrorLabelAppearance</item>
+        <item name="hintTextAppearance">@style/TextLabelAppearance</item>
+    </style>
+
+
+    <style name="TextLabel.Small">
+        <item name="android:textSize">@dimen/default_label_size</item>
+        <item name="errorTextAppearance">@style/ErrorLabelAppearance.Regular</item>
+    </style>
+    <style name="TextLabel.Regular">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="errorTextAppearance">@style/ErrorLabelAppearance.Regular</item>
+    </style>
+    <style name="TextLabel.Large">
+        <item name="android:textSize">@dimen/default_text_size_large</item>
+        <item name="errorTextAppearance">@style/ErrorLabelAppearance.Regular</item>
+    </style>
+
+    <style name="UserLabel">
+        <item name="android:textColor">@color/colorInverseText</item>
+        <item name="android:textSize">@dimen/default_label_size</item>
+    </style>
+
+    <style name="UserLabel.Large">
+        <item name="android:textSize">@dimen/large_label_size</item>
+    </style>
+
+    <style name="UserLabel.Small">
+        <item name="android:textSize">@dimen/small_label_size</item>
+    </style>
+
+    <style name="UserLabel.XS">
+        <item name="android:textSize">@dimen/xsmall_label_size</item>
+    </style>
+
+
+</resources>

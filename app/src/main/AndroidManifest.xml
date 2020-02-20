@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecar.energybite">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/login_page_f"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCXoUZZ7FocDU1NSN4cueKrUNDHJyfJKzo" />
+
+        <activity android:name=".activity.BaseActivity"></activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+        <!--android:name=".activity.MainActivity"-->
+        <!--android:theme="@style/Theme.AppCompat.Light" />-->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.MapActivity"
+            android:label="@string/title_activity_station"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".activity.PrefActivity"
+            android:label="@string/title_activity_station_detail"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.BookingStatusActivity"
+            android:label="@string/title_activity_booking_status"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.UserVehicleActivity"
+            android:label="@string/title_activity_my_vehicle"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.AddVehicleActivity"
+            android:label="@string/title_activity_my_vehicle"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.MyBookingActivity"
+            android:label="@string/title_activity_my_booking"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.MyLocationActivity"
+            android:label="@string/title_activity_my_location"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.UserProfileActivity"
+            android:label="@string/title_activity_my_profile"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".activity.ScannedBarcodeActivity"
+            android:label="@string/title_activity_scan_bar_code"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>
